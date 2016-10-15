@@ -1,0 +1,52 @@
+/* _________________________________________
+CONTENT:	ProjectName, Stylesheet Purpose
+AUTHOR:		Your Name
+____________________________________________
+
+TABLE OF CONTENTS:
+
+1. html root
+2. typograpy
+3. content
+
+========================================================== */
+
+/* 2. HTML ROOT  ========================================= */
+html, body{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+/* 3. TYPOGRAPHY  ======================================== */
+
+
+
+
+/*  CONTENT  =============================================== */
+.one-column-layout{
+	width: 100%;
+	height: 100%;
+}
+
+.one-column-layout .col-a,
+.one-column-layout .col-b{
+	width: 100%;
+	height: 100%;
+}
+
+.col-b{
+	background: blue;
+}
+
+
+.two-column-layout .col-a,
+.two-column-layout .col-b{
+	width: 50%;
+	height: 100%;
+}
+
+.three-column-layout .col-a,
+.three-column-layout .col-b{
+	width: 33.33%;
+	height: 100%;
+}
